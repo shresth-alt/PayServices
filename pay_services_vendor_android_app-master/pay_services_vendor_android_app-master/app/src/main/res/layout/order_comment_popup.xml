@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/cancellation_reason"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/border_multiline_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:textColorHint="#BDBDBD"
+        android:textColor="#616161"
+        android:hint="@string/order_comment_delay"
+        android:textSize="14sp"
+        android:gravity="top"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

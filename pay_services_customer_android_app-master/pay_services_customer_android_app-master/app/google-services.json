@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "964893842458",
+    "firebase_url": "https://pay-services-920dc.firebaseio.com",
+    "project_id": "pay-services-920dc",
+    "storage_bucket": "pay-services-920dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964893842458:android:8a4273ec0c150bd4fdc5a3",
+        "android_client_info": {
+          "package_name": "com.wki.payservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964893842458-774espu48iutf92nalotik4vk24bk52c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy2lLMSWdN753w_Br_F34ZuDauxSrsa8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964893842458-774espu48iutf92nalotik4vk24bk52c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

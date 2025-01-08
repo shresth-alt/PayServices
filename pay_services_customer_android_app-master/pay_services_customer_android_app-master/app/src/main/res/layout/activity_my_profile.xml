@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusableInTouchMode="true"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:titleTextAppearance="@style/ToolbarTitleTheme"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_address"
+                android:hint="@string/label_name"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:inputType="text"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edit_text_address"
+                android:hint="Email"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:inputType="number"
+                android:background="@drawable/edit_text_address"
+                android:hint="Mobile"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_alternate_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:inputType="number"
+                android:background="@drawable/edit_text_address"
+                android:hint="Alternate mobile"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_village"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_address"
+                android:hint="Village"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_landmark"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_address"
+                android:hint="@string/label_landmark"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_city"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_address"
+                android:hint="@string/label_city"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_state"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_address"
+                android:hint="@string/label_state"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+            <EditText
+                android:id="@+id/ed_pin_code"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="number"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_text_address"
+                android:hint="@string/label_pin_code"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

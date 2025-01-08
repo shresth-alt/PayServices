@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/write_a_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:lines="3"
+        android:background="@drawable/border_multiline_text"
+        android:textColorHint="#BDBDBD"
+        android:textColor="#616161"
+        android:hint="@string/write_a_review"
+        android:textSize="14sp"
+        android:gravity="top"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>

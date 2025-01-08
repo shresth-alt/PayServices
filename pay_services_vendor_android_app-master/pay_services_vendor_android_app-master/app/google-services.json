@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982345592154",
+    "firebase_url": "https://pay-services-vendor.firebaseio.com",
+    "project_id": "pay-services-vendor",
+    "storage_bucket": "pay-services-vendor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982345592154:android:12d8c5ae91f62b5d49d763",
+        "android_client_info": {
+          "package_name": "com.wki.payservicesvendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982345592154-c42nb7q2cf4g26g87i71ntllhqucsl4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWDMnqHJFVKOeazbYiNwcDMuq5w5EUjxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982345592154-c42nb7q2cf4g26g87i71ntllhqucsl4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
