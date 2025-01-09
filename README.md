@@ -1,4 +1,9 @@
 # PayServices
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Blade](https://img.shields.io/badge/Blade-E34F26?style=for-the-badge&logo=laravel&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Other](https://img.shields.io/badge/Other-lightgrey?style=for-the-badge)
 
 PayServices is an on-demand platform that connects users with technicians specializing in electrical appliance repairs. The platform offers real-time geolocation, secure payments, and a user-friendly interface. Built with React Native, Node.js, and MongoDB, PayServices is designed to be scalable for future service expansions, ensuring convenience and reliability for its users.
 
